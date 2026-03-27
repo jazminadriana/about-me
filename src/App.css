@@ -43,6 +43,12 @@ body {
   letter-spacing: 1px;
 }
 
+@media (max-width: 480px) {
+  .main-title {
+    font-size: 2rem; 
+  }
+}
+
 
 
 
