@@ -34,6 +34,7 @@
   color: var(--text-dim);
   font-size: 1.1rem;
   max-width: 500px;
+  text-align: justify;
 }
 
 @media (max-width: 768px) {

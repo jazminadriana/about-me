@@ -1,6 +1,6 @@
 import '../assets/styles/section.css'
 
-function Section(props) {
+function Section(props) {``
   return (
     <div className='section-container'>
 
