@@ -1,0 +1,22 @@
+{
+  "sections": [
+    {
+      "id": "1",
+      "title": "About Me",
+      "description": "I am a Mexico City-based Full Stack Developer in training. My journey into technology began after a professional transition in early 2025, allowing me to channel my energy into web development. I am passionate about building clean, functional interfaces while maintaining professional standards like Conventional Commits and reusable component architecture.",
+      "image": "/about-me/images/profile-avatar.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Tech Stack",
+      "description": "I am currently deep-diving into the MERN stack (MongoDB, Express, React, Node.js), strengthening my foundation through the University of Helsinki’s Full Stack Open and FreeCodeCamp. I enjoy solving frontend logic challenges with React and I am consistently building solid backend skills to create robust, end-to-end applications.",
+      "image": "/about-me/images/tech-avatar.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Lifestyle & Discipline",
+      "description": "Beyond code, fitness is a pillar of my life. The discipline required for physical training is the same I apply when learning a new library or debugging complex errors: consistency, patience, and attention to detail. I am seeking my first opportunity as a Junior Web Developer to bring this blend of energy and technical commitment to an innovative team",
+      "image": "/about-me/images/lifestyle-avatar.jpg"
+    }
+  ]
+}

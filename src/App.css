@@ -4,7 +4,6 @@
   --card-bg: #1e293b;       
   --text-main: #f8fafc;
   --text-dim: #94a3b8;
-  
   --font-main: 'Inter', system-ui, sans-serif;
 }
 
@@ -19,20 +18,34 @@ body {
   color: var(--text-main);
   font-family: var(--font-main);
   line-height: 1.6;
+  overflow-x: hidden;
 }
 
 .App {
   max-width: 1000px;
   margin: 0 auto;
-  padding: 40px 20px;
+  padding: 60px 20px;
   display: flex;
   flex-direction: column;
-  gap: 60px;
 }
 
-.main-title {
-  margin-bottom: 5px; 
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 40px; 
+}
+
+header {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.app-title {
   font-size: 3rem;
+  margin-bottom: 10px;
+  background: linear-gradient(to right, #fff, var(--primary-color));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .tagline {
@@ -43,12 +56,18 @@ body {
   letter-spacing: 1px;
 }
 
-@media (max-width: 480px) {
-  .main-title {
-    font-size: 2rem; 
-  }
+.loading {
+  text-align: center;
+  color: var(--primary-color);
+  font-size: 1.5rem;
+  margin-top: 50px;
 }
 
+@media (max-width: 480px) {
+  .app-title {
+    font-size: 2.2rem; 
+  }
+}
 
 
 

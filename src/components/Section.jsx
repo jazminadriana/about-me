@@ -1,21 +1,25 @@
 import '../assets/styles/section.css'
 
-function Section(props) {``
+function Section({ image, title, description }) {
   return (
-    <div className='section-container'>
+    <section className='section-container'>
 
-      <img 
-        className='section-image' 
-        src={props.image} 
-        alt={`icon for ${props.title}`} />
-
-      <div className='section-content'>
-        <p className='section-title'>{props.title}</p>
-        <p className='section-description'>{props.description}</p>
+      <div className='section-image-wrapper'>
+        <img 
+          className='section-image' 
+          src={image} 
+          alt={`Visual representation of ${title}`} 
+          loading="lazy" 
+        />
       </div>
 
-    </div>
+      <div className='section-content'>
+        <h2 className='section-title'>{title}</h2> 
+        <p className='section-description'>{description}</p>
+      </div>
+
+    </section>
   )
-}
+} 
 
 export default Section
